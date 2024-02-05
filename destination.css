@@ -1,0 +1,225 @@
+/* Reset default styles and set background color */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #3c7261;
+}
+
+/* Header styles */
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+}
+
+.navigation li {
+  margin-right: 10px;
+}
+
+.navigation li a:hover {
+    color: #2c7f11;
+    background-color:rgba(28, 2, 255, 0.267)
+}
+
+.navigation li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 20px;
+  background-color: aquamarine;
+  border-radius: 15px;
+}
+
+
+
+.pro {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profile-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.loginbtn,
+.signinbtn {
+  background-color: #04AA6D;
+  border: 2px solid #04AA6D;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px 15px;
+  color: #fff;
+  
+}
+
+.loginbtn a,.signinbtn a{
+  text-decoration: none;
+	color:white;
+}
+
+.loginbtn:hover,
+.signinbtn:hover {
+  background-color: #036956;
+}
+/* End Of the Navigation Bar*/
+
+
+/*Body*/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.row{
+  display:flex;
+
+  margin:0px;
+} 
+
+.column {
+  flex:25%;
+  float: left;
+  width: 33.33%;
+  margin-bottom: 46px;
+  padding: 0 22px 22px 0;
+  background-color: #04AA6D;
+  box-sizing: border-box;
+  border-radius: 10px;
+  /* text-align: center; */
+ 
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #8fd642;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.card img {
+/* width 100%; */
+height: fit-content;
+}
+
+.container{
+  padding:16px;
+}
+.title {
+  color: grey;
+  font-size: 12px;
+}
+.card p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  /* display: inline-block; */
+  padding: 8px 10px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+
+/*End Body*/
+
+
+
+main {
+  padding: flex;
+
+
+}
+
+
+
+
+
+.footer-content{
+  text-align: center;
+ 
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links li {
+  margin-right: 10px;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
